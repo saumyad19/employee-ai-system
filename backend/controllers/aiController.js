@@ -12,7 +12,7 @@ const callAI = async (prompt) => {
       "X-Title": "Employee AI System",
     },
     body: JSON.stringify({
-      model: "mistralai/mistral-7b-instruct",  // Free model on OpenRouter
+      model: "google/gemini-2.5-flash-free",  // Free model on OpenRouter
       messages: [
         {
           role: "system",
